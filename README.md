@@ -1,5 +1,5 @@
 # Exploratory-Data-Analysis_Assignment-2
-Instructions
+##Instructions
 
 Fine particulate matter (PM2.5) is an ambient air pollutant for which there is strong evidence that it is harmful to human health. In the United States, the Environmental Protection Agency (EPA) is tasked with setting national ambient air quality standards for fine PM and for tracking the emissions of this pollutant into the atmosphere. Approximatly every 3 years, the EPA releases its database on emissions of PM2.5. This database is known as the National Emissions Inventory (NEI). You can read more information about the NEI at the EPA National Emissions Inventory web site.
 
@@ -36,11 +36,15 @@ Source Classification Code Table (Source_Classification_Code.rds): This table pr
 
 You can read each of the two files using the readRDS() function in R. For example, reading in each file can be done with the following code:
 
-## This first line will likely take a few seconds. Be patient!
-NEI <- readRDS("summarySCC_PM25.rds")
-SCC <- readRDS("Source_Classification_Code.rds")
-as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
-Assignmentless 
+This first line will likely take a few seconds. Be patient!
+
+```NEI <- readRDS("summarySCC_PM25.rds")```
+
+```SCC <- readRDS("Source_Classification_Code.rds")```
+
+As long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
+
+
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. You may use any R package you want to support your analysis.
 
 ##Questions
